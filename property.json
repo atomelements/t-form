@@ -7,13 +7,13 @@
                 "name": "Label Alignment",
                 "type": "options",
                 "values": ["Top", "Inline"],
-                "index": 0
+                "value": "Top"
             },
             "actionButton": {
                 "name": "Action Button",
                 "type": "options",
                 "values": ["Left", "Right", "Full"],
-                "index": 0
+                "value": "Left"
             },
             "submitButtonLabel": {
                 "name": "Action Button Label",
