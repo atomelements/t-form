@@ -69,7 +69,7 @@
         <t-notify hidden$="{{!errorBlock}}" type="error" id="notify" message="{{errorMessage}}"></t-notify>
         <content id="fields" select="*"></content>
         <div id="actionContainer" hidden$="{{_fieldsNotPresent}}" class$="{{_positionButton()}}">
-            <t-button id="submit" raised on-click="submit" class="primary fieldset" label="{{submitButtonLabel}}"></t-button>
+            <t-button id="submit" on-click="submit" class="primary fieldset" label="{{submitButtonLabel}}"></t-button>
         </div>
     </template>
 </dom-module>
